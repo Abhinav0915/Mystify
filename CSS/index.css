@@ -9,6 +9,7 @@ body{
 }
 #new-login{
     text-align: center;
+    margin-top: 50px;
 }
 
 h1{
@@ -18,7 +19,7 @@ h1{
 }
 form{
     padding: 12px;
-    height: 420px;
+    height: 520px;
     width: 400px;
     background-color:rgba(255,255,255,0.13);
     position: absolute;
@@ -30,15 +31,16 @@ form{
 
 }
 form *{
-    padding: 12px;
+    margin-top: 65px;
+    padding: 4px;
     font-family: Georgia , serif;
     color: #ffffff;
     letter-spacing: 0.5px;
     outline: none;
     border: none;
+    
 }
 label{
-    
     display: block;
     margin-top: 30px;
     font-size: 16px;
@@ -46,14 +48,13 @@ label{
 
 }
 input{
-    
     display: block;
     height: 50px;
     width: 95%;
     background-color: rgba(255,255,255,0.07);
     border-radius: 3px;
     padding: 0 10px;
-    margin-top: 8px;
+    margin-top: 10px;
     font-size: 14px;
     font-weight: 300;
 }
@@ -63,8 +64,9 @@ input{
 }
 button{
     margin: 20px 0;
+    margin-left: 40px;
     margin-top: 50px;
-    width: 100%;
+    width: 80%;
     background-color: #ffffff;
     color: #080710;
     font-size: 15px 0;
