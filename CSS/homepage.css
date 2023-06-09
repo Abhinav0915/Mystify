@@ -1,0 +1,99 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: yellowgreen;
+    font-size: 50px;
+  }
+  
+  .descritpion {
+    text-align: center;
+    font-style: italic;
+    color: red;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.5px;
+    margin-bottom: 50px; /* Add margin to create space below the description */
+  }
+  
+  .input {
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
+    max-width: 400px;
+    margin: 0 auto; /* Center the container horizontally */
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 20px;
+    backdrop-filter: blur(1000px);
+    margin-bottom: 50px;
+    
+  }
+  .input input[type="number"] {
+    -moz-appearance: textfield; /* Firefox */
+    appearance: textfield; /* Other browsers */
+  }
+  
+  .input input[type="number"]::-webkit-inner-spin-button,
+  .input input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .input input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 16px;
+    
+  }
+  
+  .input input::placeholder {
+    color: grey;
+    opacity: 0.5;
+  }
+  
+  .input button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    border-radius: 20px;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  
+  .input button:hover {
+    background-color: #000000;
+    color: #ffffff;
+  
+ }
+  
+ #mystery{
+  margin-top: 200px;
+  text-align: center;
+  padding: 15px;
+  max-width: 400px;
+  margin: 0 auto; /* Center the container horizontally */
+  
+  border-radius: 20px;
+  backdrop-filter: blur(1000px);
+}
+#mystery:not(:empty) {
+  background-color: rgba(255, 255, 255, 0.13);
+}

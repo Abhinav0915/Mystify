@@ -12,16 +12,19 @@
     
     <script src="/JS/index.js"></script>
     <div>
-        <form>
+        <form id="login-form">
             <p id="new-login">Login To Your Account</p>
             <label for="username">Username</label>
-            <input type="text" name="username" id="username" placeholder="Enter your username">
+            <input type="text" name="username" id="username" placeholder="Enter your username" required>
 
             <label for="password">Password</label>
-            <input type="password" name="password" id="password" placeholder="Enter your password">
+            <input type="password" name="password" id="password" placeholder="Enter your password" required>
             
-            <button>Log In</button>
+            <button type="submit" onclick="redirectToHomepage()">Log In</button>
+            <p id="new-account">Don't have an account? <a href="signup.php">Sign Up</a></p>
+
         </form>
+    
     </div>
 </body>
 </html>
